@@ -1,0 +1,64 @@
+/* MEDIA QUERIES PARA RESPONSIVIDADE EM CELULARES */
+
+@media (max-width: 380px){
+    .banner h2 {
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 434px){
+
+    .slideshow-container .mySlides .numbertext{
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 600px) {
+    /* HEADER */
+    .header .header-container {
+        justify-content: space-between;
+        padding: 0 20px; /* Adiciona espaçamento interno */
+    }
+
+    /* BANNER */
+    .banner {
+        height: 60vh; /* Altura menor para telas pequenas */
+        width: 100%; /* Ocupa a largura total */
+    }
+
+    .banner h2 {
+        font-size: 2rem; /* Tamanho de fonte menor */
+        text-align: center;
+    }
+
+    /* BODY CONTAINER */
+    .body-container {
+        width: 90%; /* Ocupa a largura total com um pouco de margem */
+    }
+
+    .body .body-container .cartoes {
+        flex-direction: column; /* Empilha os itens verticalmente */
+        height: auto; /* Altura automática para se ajustar ao conteúdo */
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+    
+    .body .body-container .cartoes img {
+        width: 60%; /* Imagem maior em telas pequenas */
+        margin-bottom: 15px; /* Espaço entre a imagem e o texto */
+    }
+
+    .body .body-container .cartoes p {
+        width: 100%;
+    }
+
+    /* FOOTER */
+    .footer {
+        padding: 50px 0; /* Preenchimento menor */
+    }
+
+    .footer .social a {
+        margin: 10px; /* Espaçamento menor entre os ícones */
+    }
+}

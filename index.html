@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="src/images/logo.png">
+    <title>Monta Fácil</title>
+
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/variables.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/menu.css">
+    <link rel="stylesheet" href="src/css/carrossel.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/font-awesome.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Kumbh+Sans&family=Manrope:wght@200..800&family=Outfit:wght@100..900&family=Oxanium:wght@200..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="header-container">
+            <h1>
+                <a href="/" class="logo">
+                    <img src="/src/images/logo.png" alt="imagem">
+                </a>
+            </h1>
+            <nav>
+                <input type="checkbox" id="menu-hamburguer" />
+                <label for="menu-hamburguer">
+                    <div class="menu">
+                        <span class="hamburguer"></span>
+                    </div>
+                </label>
+
+                <ul>
+                    <li><a href="/">Inicio</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container-banner">
+        <section class="banner">
+            <h2>Venha conhecer nossos serviços já !</h2>
+            <a href="#about" class="scroll-down-arrow"></a>
+        </section>
+    </div>
+
+    <section class="body" id="services">
+        <div class="body-container" id="about">
+            <div class="cartoes">
+                <img src="./src/images/montagem.png" alt="">
+                <div class="informacoes">
+                    <h3>Montagem Profissional</h3>
+                    <p>Montamos seus móveis com a precisão e a segurança que você precisa. Cuidamos de cada detalhe,
+                        garantindo que o seu novo móvel tenha um ajuste perfeito, pronto para ser usado.</p>
+                </div>
+            </div>
+            <div class="cartoes">
+                <img src="./src/images/desmontagem.png" alt="">
+                <div class="informacoes">
+                    <h3>Desmontagem</h3>
+                    <p>Precisa mudar de casa ou reorganizar o ambiente? Desmontamos seus móveis com total cuidado e
+                        segurança, protegendo cada peça para que cheguem intactas ao seu novo destino.</p>
+                </div>
+            </div>
+
+            <div class="cartoes">
+                <img src="./src/images/reparo.png" alt="">
+                <div class="informacoes">
+                    <h3>Reparos</h3>
+                    <p>Se o seu móvel apresentou algum desajuste devido ao uso, excesso de peso, esforço indevido,
+                        quedas ou
+                        impactos, conte conosco! Estamos à disposição para realizar os reparos necessários e garantir
+                        que
+                        seu móvel volte a ficar em perfeito estado.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    
+    <section class="slideshow-container" id="projects">
+            <h3>Veja um pouco mais dos nossos projetos ! 👇🤙</h3>
+        
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 5</div>
+                <img src="src/images/slide1.png">
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 5</div>
+                <img src="src/images/slide2.png" >
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 5</div>
+                <img src="src/images/slide3.png" >
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">4 / 5</div>
+                <img src="src/images/slide4.png" >
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">5 / 5</div>
+                <img src="src/images/slide5.png">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+            </div>
+        </section>
+
+
+    <footer class="footer" id="contact">
+        <h4>Fale Conosco !</h4>
+        <div class="social">
+            
+            <a href="https://www.facebook.com/profile.php?id=61581261934259" target="_blank">
+                <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="https://www.instagram.com/monta_facil73/" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="https://x.com/Monta_facil" target="blank">
+                <i class="fab fa-twitter-square"></i>
+            </a>
+            <a href="https://wa.me/5521999280984" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
