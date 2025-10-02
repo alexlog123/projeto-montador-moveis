@@ -30,7 +30,7 @@ body{
     
 }
 
-.header h1{
+.header .header-container figure{
     width: 150px;
     padding-top: 10px;
     font-size: 3rem;
@@ -38,7 +38,7 @@ body{
     transition: 0.3s;
 }
 
-.header h1 img{
+.header figure img{
     width: 90%;
 }
 
